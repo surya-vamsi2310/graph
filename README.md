@@ -1,22 +1,3 @@
-![raw header](imgs/raw_header.jpg)
-
-## About
-
-**RAWGraphs** is an open web tool to create custom vector-based visualizations on top of the amazing [d3.js](https://github.com/mbostock/d3) library by [Mike Bostock](http://bost.ocks.org/mike/).
-It has been developed by [DensityDesign Research Lab](http://www.densitydesign.org/) ([Politecnico di Milano](http://www.polimi.it/)) and [Calibro](http://calib.ro/), and sustained through a corporate stewardship by [ContactLab](http://contactlab.com/it/).
-
-Primarily conceived as a tool for designers and vis geeks, RAWGraphs aims at providing a missing link  between spreadsheet applications (e.g. Microsoft Excel, Apple Numbers, Google Docs, OpenRefine, …) and vector graphics editors (e.g. Adobe Illustrator, Inkscape, …).
-
-RAWGraphs works with [tabular data](https://en.wikipedia.org/wiki/Table_(information)) (e.g. spreadhseets and comma-separated values) as well as with copied-and-pasted texts from other applications (e.g. Microsoft Excel, TextWrangler, TextEdit, …). Based on the [SVG](http://en.wikipedia.org/wiki/Svg) format, visualizations can be easily edited with vector graphics applications for further refinements, or directly embedded into web pages.
-
-Knowing the need of working with sensitive information, the data injected into RAWGraphs is processed only by the web browser: **no server-side operations or storages are performed** and no one will see, touch or copy your data!
-
-RAWGraphs is also highly customizable and extensible, accepting new custom layouts defined by users. For more information about how to add or edit layouts, see the [Developer Guide](https://github.com/rawgraphs/raw/wiki/Developer-Guide).
-
-- App page: [app.rawgraphs.io](http://app.rawgraphs.io)
-- Project official page: [rawgraphs.io](http://rawgraphs.io)
-- Documentation: [github.com/rawgraphs/raw/wiki](https://github.com/rawgraphs/raw/wiki)
-- Google group: [groups.google.com/forum/#!forum/densitydesign-raw](https://groups.google.com/forum/#!forum/densitydesign-raw)
 
 
 ## Usage
@@ -47,7 +28,7 @@ $ cd raw
 install client-side dependencies:
 
 ``` sh
-$ bower install
+raw$ bower install
 ```
 
 add analytics script:
